@@ -1,8 +1,5 @@
 # C-Projects-Stage-2
 
----
-# C-Projects-Stage-2
-
 ## Introduction
 This repository contains **Intermediate Level C Projects**, which help in enhancing problem-solving skills and understanding of advanced concepts in C programming. Below are the projects along with their explanations and expected outputs.
 
