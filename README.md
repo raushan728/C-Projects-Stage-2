@@ -99,29 +99,8 @@ Student Attendance System
 Enter your choice: 1
 Enter student name: David
 Attendance marked successfully!
-```
 
 ---
-
-## 5️⃣ **Text Encryption & Decryption**
-### 🔐 Description
-A program that **encrypts and decrypts text** using a **simple algorithm (Caesar Cipher)**.
-
-### ⚙️ Working
-- Users enter a **message** and a **shift key**.
-- The program **shifts characters forward (encryption)** and **backward (decryption)**.
-
-### 🚀 Output Example
-```
-Text Encryption & Decryption
-Enter text: Hello
-Enter shift key: 1
-Encrypted Text: Ifmmp
-Decrypted Text: Hello
-```
-
----
-
 ## 🛠️ How to ▶️ Run the Projects
 ### ✅ Requirements
 - **GCC Compiler** - [Download](https://gcc.gnu.org/install/)
