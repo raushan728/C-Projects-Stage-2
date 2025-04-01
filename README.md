@@ -99,8 +99,9 @@ Student Attendance System
 Enter your choice: 1
 Enter student name: David
 Attendance marked successfully!
-
+```
 ---
+
 ## 🛠️ How to ▶️ Run the Projects
 ### ✅ Requirements
 - **GCC Compiler** - [Download](https://gcc.gnu.org/install/)
