@@ -110,7 +110,7 @@ Attendance marked successfully!
 ### ▶️ Steps to Run
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/C-Projects-Stage-2.git
+   git clone https://github.com/raushan728/C-Projects-Stage-2.git
    ```
 2. **Navigate to the project directory:**
    ```sh
