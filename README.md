@@ -1,20 +1,46 @@
-# 🚀 C-Projects-Stage-2
+# C-Projects-Stage-2
 
-## 📌 Introduction
-This section contains **Intermediate Level C Projects**, designed to **enhance problem-solving skills** and improve **C programming knowledge**.
+## Table of Contents
+- [Introduction](#introduction)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Projects](#projects)
+  - [Library Management System](#library-management-system)
+  - [Hospital Management System](#hospital-management-system)
+  - [Bank Management System](#bank-management-system)
+  - [Student Attendance System](#student-attendance-system)
+- [How to Run](#how-to-run)
+- [Conclusion](#conclusion)
 
----
+## Introduction
+This repository contains intermediate level C projects designed to enhance problem-solving skills and improve C programming knowledge.
 
-## 1️⃣ **Library Management System**
-### 📖 Description
-A **Library Management System** that allows users to **add, search, update, and delete books**.
+## Requirements
+- GCC Compiler - [Download](https://gcc.gnu.org/install/)
+- Git - [Download](https://git-scm.com/downloads)
 
-### ⚙️ Working
-- Books are **stored** using **structures**.
-- Users can **add new books**, **search by title/author**, **update details**, and **delete records**.
-- File handling **stores book records permanently**.
+## Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/raushan728/C-Projects-Stage-2.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd C-Projects-Stage-2
+   ```
 
-### 🚀 Output Example
+## Projects
+
+### Library Management System
+#### Description
+A Library Management System that allows users to add, search, update, and delete books.
+
+#### Working
+- Books are stored using structures.
+- Users can add new books, search by title/author, update details, and delete records.
+- File handling stores book records permanently.
+
+#### Output Example
 ```
 Library Management System
 1. Add Book
@@ -29,18 +55,16 @@ Enter ISBN: 12345
 Book added successfully!
 ```
 
----
+### Hospital Management System
+#### Description
+A program that manages patient records, including admission, discharge, and medical details.
 
-## 2️⃣ **Hospital Management System**
-### 🏥 Description
-A program that **manages patient records**, including **admission, discharge, and medical details**.
+#### Working
+- Users can add, view, update, and delete patient records.
+- Each record contains name, age, disease, and treatment details.
+- Uses file handling for permanent data storage.
 
-### ⚙️ Working
-- Users can **add, view, update, and delete patient records**.
-- Each record contains **name, age, disease, and treatment details**.
-- Uses **file handling** for **permanent data storage**.
-
-### 🚀 Output Example
+#### Output Example
 ```
 Hospital Management System
 1. Add Patient Record
@@ -55,17 +79,15 @@ Enter disease: Fever
 Record added successfully!
 ```
 
----
+### Bank Management System
+#### Description
+A system for customer account management, deposits, withdrawals, and balance checks.
 
-## 3️⃣ **Bank Management System**
-### 🏦 Description
-A system for **customer account management, deposits, withdrawals, and balance checks**.
+#### Working
+- Users can create an account, deposit money, withdraw money, and check balance.
+- Each account has account number, name, balance, and transaction history.
 
-### ⚙️ Working
-- Users can **create an account, deposit money, withdraw money, and check balance**.
-- Each account has **account number, name, balance, and transaction history**.
-
-### 🚀 Output Example
+#### Output Example
 ```
 Bank Management System
 1. Create Account
@@ -79,17 +101,15 @@ Enter initial deposit: 5000
 Account created successfully!
 ```
 
----
+### Student Attendance System
+#### Description
+A program to mark, view, and manage student attendance records.
 
-## 4️⃣ **Student Attendance System**
-### 🎓 Description
-A program to **mark, view, and manage student attendance records**.
+#### Working
+- Allows teachers to mark attendance, view reports, and update records.
+- Uses file handling to maintain attendance logs.
 
-### ⚙️ Working
-- Allows **teachers** to **mark attendance, view reports, and update records**.
-- Uses **file handling** to **maintain attendance logs**.
-
-### 🚀 Output Example
+#### Output Example
 ```
 Student Attendance System
 1. Mark Attendance
@@ -100,36 +120,16 @@ Enter your choice: 1
 Enter student name: David
 Attendance marked successfully!
 ```
----
 
-## 🛠️ How to ▶️ Run the Projects
-### ✅ Requirements
-- **GCC Compiler** - [Download](https://gcc.gnu.org/install/)
-- **Git** - [Download](https://git-scm.com/downloads)
-
-### ▶️ Steps to Run
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/raushan728/C-Projects-Stage-2.git
-   ```
-2. **Navigate to the project directory:**
-   ```sh
-   cd C-Projects-Stage-2
-   ```
-3. **Compile the project:** (Replace `project_name.c` with the actual file name)
+## How to Run
+1. Compile the project: (Replace `project_name.c` with the actual file name)
    ```sh
    gcc project_name.c -o project_name
    ```
-4. **Run the compiled program:**
+2. Run the compiled program:
    ```sh
    ./project_name
    ```
 
----
-
-## 🎯 Conclusion
-These projects cover **file handling, structures, arrays, functions, and real-world applications** of **C programming**. 
-
-They are **great for practicing logical thinking** and **improving coding skills**!
-
-
+## Conclusion
+These projects cover file handling, structures, arrays, functions, and real-world applications of C programming. They are great for practicing logical thinking and improving coding skills.
